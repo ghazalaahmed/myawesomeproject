@@ -1,0 +1,158 @@
+body {
+    display:flex;
+    flex-direction: column;
+    line-height: normal;
+    background-color:dimgray;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: darkgray;
+    color:teal
+}
+
+h1 {
+    font-size: 250%;
+
+}
+
+h2, h3, h4, h5 {
+    margin:2% 0;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    color: darkslategray;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    min-width: 300px;
+    padding: 20px;
+}
+
+nav a {
+    color: darkslategray;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a :hover {
+    color: dimgrey;
+}
+
+main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1000px;
+    margin: 2% auto;
+}
+
+
+article p {
+    font-size:2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 8px;
+    background-image:url('image.png')
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    position: relative;
+}
+
+.about img {
+    position: relative;
+    left: 400px;
+    width: 30%;
+
+}
+
+.introduction, .projects, .about-me, .contact {
+    border-style: solid;
+    border-width: 3px;
+    border-color: lightslategrey;
+    padding: 10px;
+    margin: 15px;
+    background-color: darkgrey;
+
+}
+
+.projects {
+    position: relative;
+}
+
+.projects p {
+    color: dimgray;
+
+}
+
+.projects img {
+    position: relative;
+    width:60px;
+    margin: 15px;
+}
+
+.horiseonlink {
+    opacity: 1;
+    display: inline;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.horiseonlink:hover {
+  opacity: 0.3;  
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.contact a {
+color: dimgray;
+font-size: 2rem;
+font-weight: bold;
+text-decoration: none;
+}
+
+.contact li {
+    color: dimgray;
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif
+    font-weight:bolder
+    text-decoration: none;
+    padding: 15px;
+}
+
+.contact a:hover {
+    color:darkolivegreen
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkslategray;
+    color: beige;
+}
