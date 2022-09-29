@@ -1,19 +1,19 @@
 body {
-    display:flex;
+    display: 900px;
     flex-direction: column;
     line-height:1.5;
     background-color:dimgray;
-    overflow: hidden;
+    overflow:scroll;
 }
 
 header {
-    display: flex;
+    display: 400px;
     justify-content: space-between;
     align-items: center;
     padding: 2%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: darkgray;
-    color:teal
+    color:darkgoldenrod;
 }
 
 h1 {
@@ -23,14 +23,15 @@ h1 {
 h2, h3, h4, h5 {
     margin: 2% 0;
     font-size: 1.5rem;
+    color: peru;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    color: darkslategray;
+
 }
 
 nav ul {
     display:flex;
     justify-content: space-between;
-    min-width: 300px;
+    min: width 200px;px;
     padding: 10px;
 }
 
@@ -46,42 +47,36 @@ nav a:hover {
 }
 
 main {
-    display: flex;
+    display: 700px;
     flex: 1 1 0;
-    max-width: 1300px;
+    max-width: 1000px;
     margin: 2% auto;
 }
 
 article p {
-    font-size:2rem;
+    font-size: 1.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .hero {
-    display: flex;
+    display: 400px;
     flex-direction: column;
-    height: 800px;
-    width: 100%;
-    margin-bottom: 8px;
+    height: 500px;
+    width:100%;
+    margin: bottom 15px;
     background-image: url("../images/adventureimage.jpeg");
     background-size: cover;
     background-position: center;
 }
 
 .about {
-    position: relative;
-}
-
-.about img {
-    position: relative;
-    left: 500px;
-    width: 30%;
+    position:relative
 }
 
 .introduction, .my projects, .about-me, .contact {
     border-style: solid;
     border-width: 3px;
-    border-color: lightslategrey;
+    border-color:coral;
     padding: 10px;
     margin: 15px;
     background-color: darkgrey;
@@ -92,9 +87,8 @@ article p {
 
 }
 
-
 .projects p {
-    color: dimgray;
+    color:darkslategray;
 
 }
 
@@ -118,24 +112,24 @@ article p {
 }
 
 .contact {
-    display: flex;
+    display: 300px;
     justify-content: space-evenly;
 }
 
 .contact a {
-color: dimgray;
-font-size: 2rem;
+color:darkslategray;
+font-size: 1.5rem;
 font-weight: bold;
 text-decoration: none;
 }
 
 .contact li {
-    color: dimgray;
+    color:darkolivegreen;
     font-size: 1.5rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Times New Roman', Times, serif
     font-weight:bolder
     text-decoration: none;
-    padding: 10px;
+    padding: 8px;
 }
 
 .contact a:hover {
@@ -143,7 +137,7 @@ text-decoration: none;
 }
 
 footer {
-    display: flex;
+    display: 200px;
     justify-content: center;
     align-items: center;
     padding: 2%;
