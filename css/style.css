@@ -1,7 +1,7 @@
 body {
     display:flex;
     flex-direction: column;
-    line-height: normal;
+    line-height:1.5;
     background-color:dimgray;
     overflow: hidden;
 }
@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:15px;
+    padding: 2%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: darkgray;
     color:teal
@@ -18,11 +18,10 @@ header {
 
 h1 {
     font-size: 250%;
-
 }
 
 h2, h3, h4, h5 {
-    margin:2% 0;
+    margin: 2% 0;
     font-size: 1.5rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     color: darkslategray;
@@ -32,7 +31,7 @@ nav ul {
     display:flex;
     justify-content: space-between;
     min-width: 300px;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav a {
@@ -42,17 +41,16 @@ nav a {
     text-decoration: none;
 }
 
-nav a :hover {
+nav a:hover {
     color: dimgrey;
 }
 
 main {
     display: flex;
     flex: 1 1 0;
-    max-width: 1000px;
+    max-width: 1300px;
     margin: 2% auto;
 }
-
 
 article p {
     font-size:2rem;
@@ -65,7 +63,7 @@ article p {
     height: 800px;
     width: 100%;
     margin-bottom: 8px;
-    background-image:url('image.png')
+    background-image: url("../images/adventureimage.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -76,24 +74,24 @@ article p {
 
 .about img {
     position: relative;
-    left: 400px;
+    left: 500px;
     width: 30%;
-
 }
 
-.introduction, .projects, .about-me, .contact {
+.introduction, .my projects, .about-me, .contact {
     border-style: solid;
     border-width: 3px;
     border-color: lightslategrey;
     padding: 10px;
     margin: 15px;
     background-color: darkgrey;
-
 }
 
 .projects {
     position: relative;
+
 }
+
 
 .projects p {
     color: dimgray;
@@ -102,13 +100,13 @@ article p {
 
 .projects img {
     position: relative;
-    width:60px;
+    width: 50%
     margin: 15px;
 }
 
 .horiseonlink {
     opacity: 1;
-    display: inline;
+    display:inline;
     width: 100%;
     height: auto;
     transition: .5s ease;
@@ -122,8 +120,6 @@ article p {
 .contact {
     display: flex;
     justify-content: space-evenly;
-
-
 }
 
 .contact a {
@@ -136,10 +132,10 @@ text-decoration: none;
 .contact li {
     color: dimgray;
     font-size: 1.5rem;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
     font-weight:bolder
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
 }
 
 .contact a:hover {
@@ -152,7 +148,7 @@ footer {
     align-items: center;
     padding: 2%;
     font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     background-color: darkslategray;
-    color: beige;
+    color:darkslategrey;
 }
